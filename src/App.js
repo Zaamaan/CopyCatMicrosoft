@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './Navigation.css';
 import Navigation from './Navigation';
 import Slider from './Slider';
 import SCard from './SCard';
@@ -9,7 +10,15 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div>
+    <div className="Container">
+    <Navigation />
+    </div>
+  );
+}
+export default App;
+
+
+/*    <div>
       <div class="Container">
         <Navigation />
         <Slider />
@@ -18,7 +27,4 @@ function App() {
         <MiniFoot />
       </div>
       <Footer />
-    </div >
-  );
-}
-export default App;
+    </div >  */
